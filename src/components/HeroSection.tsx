@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { ArrowRight } from 'lucide-react';
+import { Link } from 'react-router-dom';
 import ImageCarousel from './ImageCarousel';
 
 const HeroSection = () => {
@@ -20,10 +21,13 @@ const HeroSection = () => {
           </p>
 
           {/* CTA Button */}
-          <button className="bg-gradient-to-r from-orange-500 to-orange-600 text-white px-8 py-4 rounded-full font-semibold text-lg hover:from-orange-600 hover:to-orange-700 transition-all duration-300 transform hover:scale-105 shadow-lg inline-flex items-center">
+          <Link
+            to="/contact"
+            className="bg-gradient-to-r from-orange-500 to-orange-600 text-white px-8 py-4 rounded-full font-semibold text-lg hover:from-orange-600 hover:to-orange-700 transition-all duration-300 transform hover:scale-105 shadow-lg inline-flex items-center"
+          >
             Enquire Now
             <ArrowRight className="ml-2 h-5 w-5" />
-          </button>
+          </Link>
 
           {/* Small description */}
           <p className="text-gray-500 mt-4 mb-12">

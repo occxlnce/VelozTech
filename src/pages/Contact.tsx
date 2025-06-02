@@ -7,7 +7,8 @@ const Contact = () => {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
-    company: '',
+    phone: '',
+    subject: '',
     message: ''
   });
 
@@ -15,7 +16,7 @@ const Contact = () => {
     e.preventDefault();
     console.log('Form submitted:', formData);
     alert('Thank you for your inquiry! We will get back to you soon.');
-    setFormData({ name: '', email: '', company: '', message: '' });
+    setFormData({ name: '', email: '', phone: '', subject: '', message: '' });
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -87,19 +88,36 @@ const Contact = () => {
                   </div>
                 </div>
 
-                <div>
-                  <label htmlFor="company" className="block text-sm font-medium text-gray-700 mb-2">
-                    Company Name
-                  </label>
-                  <input
-                    type="text"
-                    id="company"
-                    name="company"
-                    value={formData.company}
-                    onChange={handleChange}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-transparent"
-                    placeholder="Your company name"
-                  />
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                  <div>
+                    <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-2">
+                      Phone Number
+                    </label>
+                    <input
+                      type="tel"
+                      id="phone"
+                      name="phone"
+                      value={formData.phone}
+                      onChange={handleChange}
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-transparent"
+                      placeholder="+27 xx xxx xxxx"
+                    />
+                  </div>
+                  <div>
+                    <label htmlFor="subject" className="block text-sm font-medium text-gray-700 mb-2">
+                      Subject *
+                    </label>
+                    <input
+                      type="text"
+                      id="subject"
+                      name="subject"
+                      value={formData.subject}
+                      onChange={handleChange}
+                      required
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-transparent"
+                      placeholder="Project subject"
+                    />
+                  </div>
                 </div>
 
                 <div>
@@ -144,7 +162,7 @@ const Contact = () => {
                   <span className="text-orange-500 text-2xl">📍</span>
                 </div>
                 <h3 className="font-bold text-gray-900 mb-2">Visit Us</h3>
-                <p className="text-gray-600">Pretoria, South Africa</p>
+                <p className="text-gray-600">Pretoria CBD, South Africa</p>
               </div>
               
               <div className="text-center p-6">
@@ -153,6 +171,25 @@ const Contact = () => {
                 </div>
                 <h3 className="font-bold text-gray-900 mb-2">Business Hours</h3>
                 <p className="text-gray-600">Mon - Fri: 9AM - 6PM</p>
+              </div>
+            </div>
+
+            {/* Map Section */}
+            <div className="mt-16">
+              <div className="bg-white rounded-2xl shadow-lg p-8">
+                <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">Find Us</h3>
+                <div className="w-full h-96 bg-gray-200 rounded-lg flex items-center justify-center">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115333.33957291165!2d28.031038!3d-25.746111!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e9560e85e1a93b9%3A0x39d44b74b4a8b8ec!2sPretoria%20CBD%2C%20Pretoria%2C%20South%20Africa!5e0!3m2!1sen!2sus!4v1234567890"
+                    width="100%"
+                    height="100%"
+                    style={{ border: 0 }}
+                    allowFullScreen
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
+                    className="rounded-lg"
+                  ></iframe>
+                </div>
               </div>
             </div>
           </div>

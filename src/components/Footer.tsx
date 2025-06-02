@@ -1,5 +1,6 @@
 
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -26,18 +27,18 @@ const Footer = () => {
           <div>
             <h4 className="text-orange-500 font-bold text-lg mb-4">NAVIGATION</h4>
             <ul className="space-y-2">
-              <li><a href="#home" className="text-gray-300 hover:text-orange-500">Home</a></li>
-              <li><a href="#portfolios" className="text-gray-300 hover:text-orange-500">Portfolios</a></li>
-              <li><a href="#services" className="text-gray-300 hover:text-orange-500">Service</a></li>
-              <li><a href="#expertise" className="text-gray-300 hover:text-orange-500">Expertise</a></li>
-              <li><a href="#about" className="text-gray-300 hover:text-orange-500">About Us</a></li>
-              <li><a href="#testimonials" className="text-gray-300 hover:text-orange-500">Testimonials</a></li>
+              <li><Link to="/" className="text-gray-300 hover:text-orange-500">Home</Link></li>
+              <li><Link to="/about" className="text-gray-300 hover:text-orange-500">About Us</Link></li>
+              <li><Link to="/portfolio" className="text-gray-300 hover:text-orange-500">Portfolio</Link></li>
+              <li><Link to="/services" className="text-gray-300 hover:text-orange-500">Services</Link></li>
+              <li><a href="/#testimonials" className="text-gray-300 hover:text-orange-500">Testimonials</a></li>
+              <li><Link to="/contact" className="text-gray-300 hover:text-orange-500">Contact Us</Link></li>
             </ul>
           </div>
 
           {/* Services */}
           <div>
-            <h4 className="text-orange-500 font-bold text-lg mb-4">SERVICE</h4>
+            <h4 className="text-orange-500 font-bold text-lg mb-4">SERVICES</h4>
             <ul className="space-y-2">
               <li><span className="text-gray-300">Smart Security</span></li>
               <li><span className="text-gray-300">Financial Systems</span></li>
