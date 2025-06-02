@@ -12,7 +12,7 @@ const Footer = () => {
           <div className="md:col-span-1">
             <div className="flex items-center mb-4">
               <img 
-                src="https://res.cloudinary.com/dhrahkev7/image/upload/v1748874695/Screenshot_2025-05-30_004724_tk6k4q.png" 
+                src="https://res.cloudinary.com/dhrahkev7/image/upload/v1748876467/veloztech_gwhnqv.png" 
                 alt="VelozTech Logo" 
                 className="h-8 w-auto"
               />
@@ -20,7 +20,7 @@ const Footer = () => {
             <p className="text-gray-300 mb-4">
               Agency with incredible design and development expertise. Based in Pretoria, RSA.
             </p>
-            <p className="text-gray-300">infor@velotech.co.za</p>
+            <p className="text-gray-300">info@velotech.co.za</p>
           </div>
 
           {/* Navigation */}
