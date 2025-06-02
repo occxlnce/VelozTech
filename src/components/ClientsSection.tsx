@@ -37,7 +37,7 @@ velozTECH develops cutting-edge software tailored to your business needs, from f
               to="/contact"
               className="bg-white text-orange-500 group-hover:bg-orange-600 group-hover:text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-gray-100 transition-all duration-500 inline-block"
             >
-              Get Started
+              Contact Us
             </Link>
           </div>
         </div>
