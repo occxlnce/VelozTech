@@ -28,10 +28,10 @@ const ClientsSection = () => {
         <div className="bg-gray-800 hover:bg-orange-500 rounded-3xl p-12 text-center relative overflow-hidden transition-all duration-500 ease-in-out cursor-pointer group">
           <div className="relative z-10">
             <h3 className="text-3xl md:text-5xl font-bold text-orange-500 group-hover:text-white mb-6 transition-colors duration-500">
-              Let's try our service now!
+            Need Innovative Software Solutions?
             </h3>
             <p className="text-white text-lg mb-8 max-w-2xl mx-auto transition-colors duration-500">
-              Everything you need to accept card payments and grow your business anywhere on the planet.
+velozTECH develops cutting-edge software tailored to your business needs, from fleet management systems like Veloz Track-Us to custom enterprise applications. Secure IT, speedily delivered. Let's discuss your next project.
             </p>
             <Link
               to="/contact"
