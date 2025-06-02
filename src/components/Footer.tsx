@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer className="bg-gray-800 text-white py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
           {/* Company Info */}
           <div className="md:col-span-1">
             <div className="flex items-center mb-4">
@@ -31,21 +31,7 @@ const Footer = () => {
               <li><Link to="/about" className="text-gray-300 hover:text-orange-500">About Us</Link></li>
               <li><Link to="/portfolio" className="text-gray-300 hover:text-orange-500">Portfolio</Link></li>
               <li><Link to="/services" className="text-gray-300 hover:text-orange-500">Services</Link></li>
-              <li><a href="/#testimonials" className="text-gray-300 hover:text-orange-500">Testimonials</a></li>
               <li><Link to="/contact" className="text-gray-300 hover:text-orange-500">Contact Us</Link></li>
-            </ul>
-          </div>
-
-          {/* Services */}
-          <div>
-            <h4 className="text-orange-500 font-bold text-lg mb-4">SERVICES</h4>
-            <ul className="space-y-2">
-              <li><span className="text-gray-300">Smart Security</span></li>
-              <li><span className="text-gray-300">Financial Systems</span></li>
-              <li><span className="text-gray-300">Telecommunications</span></li>
-              <li><span className="text-gray-300">Intelligent Transport</span></li>
-              <li><span className="text-gray-300">Software Engineering</span></li>
-              <li><span className="text-gray-300">Mobile and Web Development</span></li>
             </ul>
           </div>
 

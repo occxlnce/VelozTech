@@ -15,20 +15,6 @@ const Navbar = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const scrollToSection = (sectionId: string) => {
-    if (location.pathname !== '/') {
-      // If not on home page, navigate to home first then scroll
-      window.location.href = `/#${sectionId}`;
-    } else {
-      // If on home page, just scroll
-      const element = document.getElementById(sectionId);
-      if (element) {
-        element.scrollIntoView({ behavior: 'smooth' });
-      }
-    }
-    setIsMobileMenuOpen(false);
-  };
-
   const scrollToTop = () => {
     if (location.pathname !== '/') {
       window.location.href = '/';
@@ -92,18 +78,6 @@ const Navbar = () => {
               >
                 Portfolio
               </Link>
-              <button
-                onClick={() => scrollToSection('testimonials')}
-                className="text-gray-600 hover:text-orange-500 transition-colors"
-              >
-                Testimonials
-              </button>
-              <button
-                onClick={() => scrollToSection('clients')}
-                className="text-gray-600 hover:text-orange-500 transition-colors"
-              >
-                Clients
-              </button>
               <Link
                 to="/contact"
                 className={`transition-colors ${
@@ -172,18 +146,6 @@ const Navbar = () => {
               >
                 Portfolio
               </Link>
-              <button
-                onClick={() => scrollToSection('testimonials')}
-                className="block px-3 py-2 text-gray-600 hover:text-orange-500 text-left w-full"
-              >
-                Testimonials
-              </button>
-              <button
-                onClick={() => scrollToSection('clients')}
-                className="block px-3 py-2 text-gray-600 hover:text-orange-500 text-left w-full"
-              >
-                Clients
-              </button>
               <Link
                 to="/contact"
                 className={`block px-3 py-2 ${
