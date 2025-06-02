@@ -35,7 +35,7 @@ const Navbar = () => {
           <div className="flex-shrink-0">
             <button onClick={scrollToTop} className="flex items-center">
               <img 
-                src="https://res.cloudinary.com/dhrahkev7/image/upload/v1748874695/Screenshot_2025-05-30_004724_tk6k4q.png" 
+                src="https://res.cloudinary.com/dhrahkev7/image/upload/v1748876467/veloztech_gwhnqv.png" 
                 alt="VelozTech Logo" 
                 className="h-10 w-auto"
               />
