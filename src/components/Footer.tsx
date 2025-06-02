@@ -12,7 +12,7 @@ const Footer = () => {
           <div className="md:col-span-1">
             <div className="flex items-center mb-4">
               <img 
-                src="https://res.cloudinary.com/dhrahkev7/image/upload/v1748876467/veloztech_gwhnqv.png" 
+                src="https://res.cloudinary.com/dhrahkev7/image/upload/v1748874695/Screenshot_2025-05-30_004724_tk6k4q.png" 
                 alt="VelozTech Logo" 
                 className="h-8 w-auto"
               />
@@ -46,11 +46,10 @@ const Footer = () => {
             
             <h4 className="text-orange-500 font-bold text-lg mb-4">COMPANY</h4>
             <ul className="space-y-2">
-              <li><a href="#" className="text-gray-300 hover:text-orange-500">Terms & Conditions</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-orange-500">Privacy Policy</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-orange-500">Cookies</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-orange-500">Careers</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-orange-500">Internship</a></li>
+              <li><Link to="/terms" className="text-gray-300 hover:text-orange-500">Terms & Conditions</Link></li>
+              <li><Link to="/privacy" className="text-gray-300 hover:text-orange-500">Privacy Policy</Link></li>
+              <li><Link to="/cookies" className="text-gray-300 hover:text-orange-500">Cookies</Link></li>
+              <li><Link to="/careers" className="text-gray-300 hover:text-orange-500">Careers</Link></li>
             </ul>
           </div>
         </div>
