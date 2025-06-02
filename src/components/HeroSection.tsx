@@ -33,16 +33,6 @@ const HeroSection = () => {
           <p className="text-gray-500 mt-4 mb-12">
             Discover how our services can benefit you.
           </p>
-
-          {/* Client Logos */}
-          <div className="flex items-center justify-center space-x-8 md:space-x-16 mb-20 flex-wrap">
-            <div className="flex items-center text-red-500 text-2xl font-bold">
-              <span className="mr-1">⌂</span> airbnb
-            </div>
-            <div className="text-black text-3xl font-bold">Uber</div>
-            <div className="text-blue-600 text-2xl font-bold">stripe</div>
-            <div className="text-black text-2xl font-bold">OpenAI</div>
-          </div>
         </div>
       </div>
 

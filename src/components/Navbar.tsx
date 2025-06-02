@@ -34,12 +34,11 @@ const Navbar = () => {
           {/* Logo */}
           <div className="flex-shrink-0">
             <button onClick={scrollToTop} className="flex items-center">
-              <div className="bg-gradient-to-r from-orange-500 to-orange-600 p-2 rounded-lg">
-                <span className="text-white font-bold text-lg">V</span>
-              </div>
-              <span className="ml-2 text-xl font-bold text-gray-900">
-                veloz<span className="text-orange-500">TECH</span>
-              </span>
+              <img 
+                src="https://res.cloudinary.com/dhrahkev7/image/upload/v1748874695/Screenshot_2025-05-30_004724_tk6k4q.png" 
+                alt="VelozTech Logo" 
+                className="h-10 w-auto"
+              />
             </button>
           </div>
 

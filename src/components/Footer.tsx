@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { Instagram, Facebook, Twitter, Linkedin } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -10,12 +11,11 @@ const Footer = () => {
           {/* Company Info */}
           <div className="md:col-span-1">
             <div className="flex items-center mb-4">
-              <div className="bg-gradient-to-r from-orange-500 to-orange-600 p-2 rounded-lg">
-                <span className="text-white font-bold text-lg">V</span>
-              </div>
-              <span className="ml-2 text-xl font-bold">
-                veloz<span className="text-orange-500">TECH</span>
-              </span>
+              <img 
+                src="https://res.cloudinary.com/dhrahkev7/image/upload/v1748874695/Screenshot_2025-05-30_004724_tk6k4q.png" 
+                alt="VelozTech Logo" 
+                className="h-8 w-auto"
+              />
             </div>
             <p className="text-gray-300 mb-4">
               Agency with incredible design and development expertise. Based in Pretoria, RSA.
@@ -30,7 +30,6 @@ const Footer = () => {
               <li><Link to="/" className="text-gray-300 hover:text-orange-500">Home</Link></li>
               <li><Link to="/about" className="text-gray-300 hover:text-orange-500">About Us</Link></li>
               <li><Link to="/portfolio" className="text-gray-300 hover:text-orange-500">Portfolio</Link></li>
-              <li><Link to="/services" className="text-gray-300 hover:text-orange-500">Services</Link></li>
               <li><Link to="/contact" className="text-gray-300 hover:text-orange-500">Contact Us</Link></li>
             </ul>
           </div>
@@ -63,10 +62,18 @@ const Footer = () => {
               © 2025 VelozTech. All Rights Reserved.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-orange-500">📷</a>
-              <a href="#" className="text-gray-400 hover:text-orange-500">📘</a>
-              <a href="#" className="text-gray-400 hover:text-orange-500">🐦</a>
-              <a href="#" className="text-gray-400 hover:text-orange-500">💼</a>
+              <a href="#" className="text-gray-400 hover:text-orange-500">
+                <Instagram className="h-5 w-5" />
+              </a>
+              <a href="#" className="text-gray-400 hover:text-orange-500">
+                <Facebook className="h-5 w-5" />
+              </a>
+              <a href="#" className="text-gray-400 hover:text-orange-500">
+                <Twitter className="h-5 w-5" />
+              </a>
+              <a href="#" className="text-gray-400 hover:text-orange-500">
+                <Linkedin className="h-5 w-5" />
+              </a>
             </div>
           </div>
         </div>
