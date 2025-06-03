@@ -12,7 +12,7 @@ const Footer = () => {
           <div className="md:col-span-1">
             <div className="flex items-center mb-4">
               <img 
-                src="https://res.cloudinary.com/dhrahkev7/image/upload/v1748874695/Screenshot_2025-05-30_004724_tk6k4q.png" 
+                src="https://res.cloudinary.com/dhrahkev7/image/upload/v1748876467/veloztech_gwhnqv.png" 
                 alt="VelozTech Logo" 
                 className="h-8 w-auto"
               />
