@@ -8,21 +8,21 @@ const PortfolioTeaser = () => {
       id: "01",
       title: "Fleet Management System",
       description: "A comprehensive solution providing real-time tracking, route optimization, and intelligent analytics for fleet operations.",
-      image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=600&h=400&fit=crop",
+      image: "https://images.pexels.com/photos/29566897/pexels-photo-29566897/free-photo-of-aerial-view-of-vehicle-storage-lot-with-cars.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       technologies: ["React", "Node.js", "GPS API"]
     },
     {
       id: "02",
       title: "4us2csecurity Website",
       description: "Modern, responsive website for a security company featuring service showcases and integrated contact systems.",
-      image: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&h=400&fit=crop",
+      image: "https://www.procompare.co.za/shared/za/2025/3/7ab53f0b0a0644e795e25866ad27d7f1/security-companies_thumbnail.webp",
       technologies: ["React", "Tailwind CSS", "CMS"]
     },
     {
       id: "03",
       title: "Walkie Talkie Mobile App",
       description: "Cross-platform mobile application providing instant communication with group channels and location sharing.",
-      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop",
+      image: "https://images.pexels.com/photos/8961010/pexels-photo-8961010.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       technologies: ["React Native", "WebRTC", "Firebase"]
     }
   ];
@@ -38,7 +38,7 @@ const PortfolioTeaser = () => {
             Drive Innovation
           </h3>
           <p className="text-gray-600 text-lg max-w-2xl mx-auto">
-            Discover some of our recent projects that showcase our expertise in delivering cutting-edge technology solutions.
+          Explore how we've delivered impactful, cutting-edge solutions for our clients.
           </p>
         </div>
 

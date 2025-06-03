@@ -17,9 +17,9 @@ const ClientsSection = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center mb-16">
-          <h2 className="text-orange-500 text-lg font-semibold mb-4">Our Trusted Clients</h2>
+          <h2 className="text-orange-500 text-lg font-semibold mb-4">Trusted by Industry Leaders and Innovators.</h2>
           <p className="text-gray-600 text-lg max-w-2xl mx-auto mb-12">
-            Our mission is to dive progress and enhance the lives of our customers by delivering superior products and services that exceed expectations.
+          We are proud to partner with a diverse range of organizations, helping them achieve their technological goals.
           </p>
           
           {/* Client Logos Carousel */}
@@ -59,7 +59,7 @@ const ClientsSection = () => {
             Need Innovative Software Solutions?
             </h3>
             <p className="text-white text-lg mb-8 max-w-2xl mx-auto transition-colors duration-500">
-velozTECH develops cutting-edge software tailored to your business needs, from fleet management systems like Veloz Track-Us to custom enterprise applications. Secure IT, speedily delivered. Let's discuss your next project.
+            VelozTech specializes in developing cutting-edge software tailored to your specific business needs. From advanced fleet management systems like our Veloz Track-Us platform to bespoke enterprise applications, we deliver secure and efficient IT solutions. Ready to transform your operations? Let's discuss your next project.
             </p>
             <Link
               to="/contact"

@@ -3,12 +3,12 @@ import React from 'react';
 
 const ImageCarousel = () => {
   const images = [
-    'https://images.unsplash.com/photo-1649972904349-6e44c42644a7?w=400&h=300&fit=crop',
-    'https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=400&h=300&fit=crop',
-    'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=400&h=300&fit=crop',
-    'https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=400&h=300&fit=crop',
-    'https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?w=400&h=300&fit=crop',
-    'https://images.unsplash.com/photo-1605810230434-7631ac76ec81?w=400&h=300&fit=crop',
+    'https://img.freepik.com/free-psd/car-sharing-service-landing-page-template_23-2150432265.jpg?semt=ais_hybrid&w=740',
+    'https://www.mockupworld.co/wp-content/uploads/dynamic/2025/06/hand-holding-iphone-16-pro-free-mockup-870x0-c-default.jpg',
+    'https://img.freepik.com/premium-psd/app-phone-screen-mockup_157104-799.jpg?semt=ais_hybrid&w=740',
+    'https://www.mockupworld.co/wp-content/uploads/dynamic/2025/05/2-macbooks-free-mockup-870x0-c-default.jpg',
+    'https://www.mockupworld.co/wp-content/uploads/dynamic/2025/03/glass-style-iphone-free-iphone-mockup-870x0-c-default.jpg',
+    'https://img.freepik.com/free-psd/flat-design-car-sharing-template_23-2150426650.jpg?ga=GA1.1.1674444299.1748940793&semt=ais_items_boosted&w=740',
   ];
 
   return (

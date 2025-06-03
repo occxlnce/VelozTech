@@ -11,13 +11,13 @@ const HeroSection = () => {
         <div className="text-center py-20">
           {/* Main Heading */}
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-gray-900 mb-6 leading-tight">
-            Intelligent Solutions<br />
-            <span className="text-gray-800">for a Smarter World.</span>
+          VelozTech:<br />
+            <span className="text-gray-800">Engineering Smarter Solutions for Your Success.</span>
           </h1>
 
           {/* Subheading */}
           <p className="text-lg md:text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-            We provide cutting-edge technology solutions tailored to your needs.
+          We deliver innovative and customized technology services that drive efficiency, growth, and security for your organization.
           </p>
 
           {/* CTA Button */}
@@ -31,7 +31,7 @@ const HeroSection = () => {
 
           {/* Small description */}
           <p className="text-gray-500 mt-4 mb-12">
-            Discover how our services can benefit you.
+          Explore our services and see how we can empower your business.
           </p>
         </div>
       </div>

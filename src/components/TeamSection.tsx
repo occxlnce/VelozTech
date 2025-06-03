@@ -5,44 +5,44 @@ import { Link } from 'react-router-dom';
 const TeamSection = ({ isHomePage = false }: { isHomePage?: boolean }) => {
   const teamMembers = [
     {
-      name: "Thabo Mthembu",
+      name: "Wisani Salani",
       title: "Chief Executive Officer",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=300&fit=crop&crop=face",
+      image: "https://images.pexels.com/photos/6951837/pexels-photo-6951837.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       linkedin: "#",
       twitter: "#"
     },
     {
-      name: "Nomsa Sibeko",
+      name: "Nhlamulo Nkatingi",
       title: "Chief Technology Officer",
-      image: "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=300&h=300&fit=crop&crop=face",
+      image: "https://images.pexels.com/photos/31660597/pexels-photo-31660597/free-photo-of-thoughtful-man-looking-upwards-in-soft-light.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       linkedin: "#",
       twitter: "#"
     },
     {
-      name: "Kagiso Mokoena",
-      title: "Lead Software Engineer",
-      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&h=300&fit=crop&crop=face",
+      name: "Asakundwi Netshimbupfe",
+      title: "Software Developer",
+      image: "https://images.pexels.com/photos/27631548/pexels-photo-27631548/free-photo-of-a-black-man-in-a-denim-jacket-sitting-down.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       linkedin: "#",
       twitter: "#"
     },
     {
-      name: "Lerato Nkomo",
-      title: "AI/ML Specialist",
-      image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=300&h=300&fit=crop&crop=face",
+      name: "Murunzi Tharaga",
+      title: "Software Engineer",
+      image: "https://res.cloudinary.com/dhrahkev7/image/upload/v1748938604/Sombra_Comp_tuv3dy.png",
       linkedin: "#",
       twitter: "#"
     },
     {
-      name: "Sipho Radebe",
-      title: "Project Manager",
-      image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=300&h=300&fit=crop&crop=face",
+      name: "Tshedza Rahulani",
+      title: "UI/UX Designer",
+      image: "https://images.pexels.com/photos/29258105/pexels-photo-29258105/free-photo-of-elegant-portrait-of-a-woman-in-vibrant-green-attire.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       linkedin: "#",
       twitter: "#"
     },
     {
-      name: "Thandiwe Dlamini",
-      title: "UX/UI Designer",
-      image: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=300&h=300&fit=crop&crop=face",
+      name: "Rendani ",
+      title: "HR Manager",
+      image: "https://images.pexels.com/photos/29479542/pexels-photo-29479542/free-photo-of-elegant-portrait-of-a-fashionable-woman.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       linkedin: "#",
       twitter: "#"
     }
@@ -62,7 +62,7 @@ const TeamSection = ({ isHomePage = false }: { isHomePage?: boolean }) => {
           </h3>
           <p className="text-gray-600 text-lg max-w-2xl mx-auto">
             {isHomePage 
-              ? 'Meet some of our key team members who make innovation possible.'
+              ? 'Our passionate team of experts combines deep technical knowledge with a commitment to understanding your unique needs.'
               : 'Our diverse team of experts brings together years of experience in technology, innovation, and business transformation.'
             }
           </p>

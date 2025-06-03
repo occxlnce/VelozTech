@@ -85,11 +85,11 @@ const ServicesSection: React.FC<ServicesSectionProps> = ({ showAll = false, isHo
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center mb-16">
-          <h2 className="text-orange-500 text-lg font-semibold mb-4">Services</h2>
+          <h2 className="text-orange-500 text-lg font-semibold mb-4">Specialized Technology Services to Elevate Your Operations</h2>
           <h3 className="text-3xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight">
-            It's not about limitations, but this is<br />
-            something about what we focus<br />
-            on.
+          At VelozTech, we concentrate on key areas where technology can deliver maximum impact,<br />
+          ensuring your business stays<br />
+            ahead.
           </h3>
         </div>
 
