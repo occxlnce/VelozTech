@@ -44,13 +44,64 @@ const Portfolio = () => {
       <Navbar />
       
       <div className="pt-20">
-        {/* Hero Section */}
-        <div className="bg-gradient-to-br from-orange-500 to-orange-600 text-white py-20">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h1 className="text-4xl md:text-6xl font-bold mb-6">Our Portfolio</h1>
-            <p className="text-xl text-orange-100 max-w-2xl mx-auto">
-              Showcasing our innovative projects and successful implementations that drive business transformation.
-            </p>
+        {/* Unique Creative Hero Section for Portfolio */}
+        <div className="relative min-h-screen bg-white overflow-hidden">
+          {/* Large Typography Background */}
+          <div className="absolute inset-0 flex items-center justify-center opacity-5">
+            <div className="text-[20rem] font-bold text-gray-900 select-none">WORK</div>
+          </div>
+          
+          {/* Floating Elements */}
+          <div className="absolute inset-0">
+            <div className="absolute top-20 left-20 w-3 h-3 bg-orange-500 rounded-full animate-ping"></div>
+            <div className="absolute top-40 right-32 w-2 h-2 bg-orange-400 rounded-full animate-pulse"></div>
+            <div className="absolute bottom-32 left-40 w-4 h-4 bg-orange-300 rounded-full animate-bounce"></div>
+            <div className="absolute top-1/3 left-1/4 w-1 h-20 bg-orange-500 animate-pulse"></div>
+            <div className="absolute bottom-1/4 right-1/3 w-20 h-1 bg-orange-500 animate-pulse"></div>
+          </div>
+          
+          <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 min-h-screen flex items-center">
+            <div className="w-full">
+              <div className="text-center max-w-4xl mx-auto">
+                <div className="mb-8">
+                  <span className="inline-block px-6 py-3 border-2 border-orange-500 text-orange-500 rounded-full text-sm font-medium tracking-wider uppercase">
+                    Selected Works
+                  </span>
+                </div>
+                
+                <h1 className="text-6xl md:text-8xl font-bold mb-8 leading-tight text-gray-900">
+                  <span className="block">Creative</span>
+                  <span className="block text-orange-500">Portfolio</span>
+                </h1>
+                
+                <p className="text-xl md:text-2xl text-gray-600 leading-relaxed mb-12 max-w-2xl mx-auto">
+                  Showcasing our most innovative projects and successful implementations that drive business transformation across industries.
+                </p>
+                
+                {/* Project Count */}
+                <div className="flex justify-center items-center space-x-12">
+                  <div className="text-center">
+                    <div className="text-4xl font-bold text-orange-500 mb-2">4+</div>
+                    <div className="text-gray-500 uppercase tracking-wider">Featured Projects</div>
+                  </div>
+                  <div className="w-px h-12 bg-gray-300"></div>
+                  <div className="text-center">
+                    <div className="text-4xl font-bold text-orange-500 mb-2">50+</div>
+                    <div className="text-gray-500 uppercase tracking-wider">Total Projects</div>
+                  </div>
+                </div>
+              </div>
+              
+              {/* Scroll Indicator */}
+              <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2">
+                <div className="flex flex-col items-center">
+                  <span className="text-orange-500 text-sm mb-2 uppercase tracking-wider">View Work</span>
+                  <div className="w-6 h-10 border-2 border-orange-500 rounded-full flex justify-center">
+                    <div className="w-1 h-3 bg-orange-500 rounded-full animate-bounce mt-2"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 

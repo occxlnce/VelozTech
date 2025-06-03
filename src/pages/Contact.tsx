@@ -31,13 +31,83 @@ const Contact = () => {
       <Navbar />
       
       <div className="pt-20">
-        {/* Hero Section */}
-        <div className="bg-gradient-to-br from-orange-500 to-orange-600 text-white py-20">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h1 className="text-4xl md:text-6xl font-bold mb-6">Get In Touch</h1>
-            <p className="text-xl text-orange-100 max-w-2xl mx-auto">
-              Ready to transform your business with cutting-edge technology? Let's discuss your project and create something amazing together.
-            </p>
+        {/* Unique Creative Hero Section for Contact */}
+        <div className="relative min-h-screen bg-gradient-to-br from-orange-500 via-orange-600 to-red-500 text-white overflow-hidden">
+          {/* Dynamic Background Pattern */}
+          <div className="absolute inset-0">
+            <div className="absolute top-0 left-0 w-full h-full">
+              <div className="grid grid-cols-8 gap-4 h-full opacity-10">
+                {[...Array(64)].map((_, i) => (
+                  <div 
+                    key={i} 
+                    className="bg-white rounded-lg animate-pulse" 
+                    style={{ 
+                      animationDelay: `${i * 0.2}s`,
+                      animationDuration: '3s'
+                    }}
+                  ></div>
+                ))}
+              </div>
+            </div>
+          </div>
+          
+          {/* Floating Contact Icons */}
+          <div className="absolute inset-0">
+            <div className="absolute top-1/4 left-1/6 text-6xl animate-bounce" style={{animationDelay: '0s'}}>📧</div>
+            <div className="absolute top-1/3 right-1/4 text-4xl animate-bounce" style={{animationDelay: '1s'}}>📱</div>
+            <div className="absolute bottom-1/4 left-1/3 text-5xl animate-bounce" style={{animationDelay: '2s'}}>🌍</div>
+          </div>
+          
+          <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 min-h-screen flex items-center">
+            <div className="w-full text-center">
+              <div className="mb-8">
+                <span className="inline-block px-6 py-3 bg-white/20 backdrop-blur-sm rounded-full text-sm font-medium tracking-wider uppercase">
+                  Get In Touch
+                </span>
+              </div>
+              
+              <h1 className="text-6xl md:text-8xl font-bold mb-8 leading-tight">
+                <span className="block">Let's Create</span>
+                <span className="block">Something</span>
+                <span className="block text-orange-200">Amazing</span>
+                <span className="block">Together</span>
+              </h1>
+              
+              <p className="text-xl md:text-2xl text-orange-100 leading-relaxed mb-12 max-w-3xl mx-auto">
+                Ready to transform your business with cutting-edge technology? We're here to turn your vision into reality.
+              </p>
+              
+              {/* Contact Methods */}
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
+                <div className="bg-white/10 backdrop-blur-sm p-6 rounded-2xl border border-white/20">
+                  <div className="text-3xl mb-4">💬</div>
+                  <h3 className="font-bold mb-2">Chat With Us</h3>
+                  <p className="text-orange-100">info@velotech.co.za</p>
+                </div>
+                
+                <div className="bg-white/10 backdrop-blur-sm p-6 rounded-2xl border border-white/20">
+                  <div className="text-3xl mb-4">📍</div>
+                  <h3 className="font-bold mb-2">Visit Our Office</h3>
+                  <p className="text-orange-100">Pretoria CBD, South Africa</p>
+                </div>
+                
+                <div className="bg-white/10 backdrop-blur-sm p-6 rounded-2xl border border-white/20">
+                  <div className="text-3xl mb-4">⏰</div>
+                  <h3 className="font-bold mb-2">Working Hours</h3>
+                  <p className="text-orange-100">Mon - Fri: 9AM - 6PM</p>
+                </div>
+              </div>
+              
+              {/* Scroll Indicator */}
+              <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2">
+                <div className="flex flex-col items-center">
+                  <span className="text-orange-200 text-sm mb-2 uppercase tracking-wider">Start Project</span>
+                  <div className="w-6 h-10 border-2 border-orange-200 rounded-full flex justify-center">
+                    <div className="w-1 h-3 bg-orange-200 rounded-full animate-bounce mt-2"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 

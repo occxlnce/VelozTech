@@ -10,13 +10,56 @@ const About = () => {
       <Navbar />
       
       <div className="pt-20">
-        {/* Hero Section */}
-        <div className="bg-gradient-to-br from-orange-500 to-orange-600 text-white py-20">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h1 className="text-4xl md:text-6xl font-bold mb-6">About VelozTech</h1>
-            <p className="text-xl text-orange-100 max-w-2xl mx-auto">
-              Driving innovation through intelligent technology solutions for a smarter world.
-            </p>
+        {/* Unique Creative Hero Section */}
+        <div className="relative min-h-screen bg-black text-white overflow-hidden">
+          {/* Background Animation */}
+          <div className="absolute inset-0">
+            <div className="absolute top-20 left-10 w-64 h-64 bg-orange-500 rounded-full opacity-20 animate-pulse"></div>
+            <div className="absolute bottom-20 right-10 w-96 h-96 bg-orange-400 rounded-full opacity-10 animate-bounce"></div>
+            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-128 h-128 bg-gradient-to-r from-orange-500 to-transparent rounded-full opacity-5 animate-spin" style={{animationDuration: '20s'}}></div>
+          </div>
+          
+          <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+            <div className="text-center">
+              <div className="mb-8">
+                <span className="text-orange-400 text-lg tracking-wider uppercase">Who We Are</span>
+              </div>
+              
+              <h1 className="text-6xl md:text-8xl font-bold mb-8 leading-tight">
+                <span className="block">Crafting</span>
+                <span className="block text-orange-400">Digital</span>
+                <span className="block">Excellence</span>
+              </h1>
+              
+              <div className="max-w-3xl mx-auto">
+                <p className="text-xl md:text-2xl text-gray-300 leading-relaxed mb-12">
+                  We are a team of passionate innovators, designers, and developers who believe in the power of technology to transform businesses and create meaningful impact.
+                </p>
+              </div>
+              
+              {/* Floating Elements */}
+              <div className="flex justify-center items-center space-x-8 md:space-x-16 mt-16">
+                <div className="text-center">
+                  <div className="text-4xl font-bold text-orange-400 mb-2">50+</div>
+                  <div className="text-gray-400">Projects Delivered</div>
+                </div>
+                <div className="text-center">
+                  <div className="text-4xl font-bold text-orange-400 mb-2">5+</div>
+                  <div className="text-gray-400">Years Experience</div>
+                </div>
+                <div className="text-center">
+                  <div className="text-4xl font-bold text-orange-400 mb-2">100%</div>
+                  <div className="text-gray-400">Client Satisfaction</div>
+                </div>
+              </div>
+            </div>
+            
+            {/* Scroll Indicator */}
+            <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2">
+              <div className="w-6 h-10 border-2 border-orange-400 rounded-full flex justify-center">
+                <div className="w-1 h-3 bg-orange-400 rounded-full animate-bounce mt-2"></div>
+              </div>
+            </div>
           </div>
         </div>
 

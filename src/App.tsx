@@ -14,6 +14,8 @@ import Privacy from "./pages/Privacy";
 import Cookies from "./pages/Cookies";
 import Careers from "./pages/Careers";
 import NotFound from "./pages/NotFound";
+import CookiePopup from "./components/CookiePopup";
+import CursorSparkle from "./components/CursorSparkle";
 
 const queryClient = new QueryClient();
 
@@ -23,6 +25,7 @@ const App = () => (
       <Toaster />
       <Sonner />
       <BrowserRouter>
+        <CursorSparkle />
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/about" element={<About />} />
@@ -35,6 +38,7 @@ const App = () => (
           <Route path="/careers" element={<Careers />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
+        <CookiePopup />
       </BrowserRouter>
     </TooltipProvider>
   </QueryClientProvider>

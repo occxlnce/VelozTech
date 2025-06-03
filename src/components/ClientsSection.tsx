@@ -3,6 +3,15 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const ClientsSection = () => {
+  const clients = [
+    { name: 'airbnb', logo: '⌂', color: 'text-red-500' },
+    { name: 'Uber', logo: '', color: 'text-black' },
+    { name: 'stripe', logo: '', color: 'text-blue-600' },
+    { name: 'OpenAI', logo: '', color: 'text-black' },
+    { name: 'Microsoft', logo: '', color: 'text-blue-500' },
+    { name: 'Google', logo: '', color: 'text-green-500' },
+  ];
+
   return (
     <section id="clients" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -13,14 +22,33 @@ const ClientsSection = () => {
             Our mission is to dive progress and enhance the lives of our customers by delivering superior products and services that exceed expectations.
           </p>
           
-          {/* Client Logos */}
-          <div className="flex items-center justify-center space-x-8 md:space-x-16 mb-16 flex-wrap">
-            <div className="flex items-center text-red-500 text-3xl font-bold">
-              <span className="mr-2">⌂</span> airbnb
+          {/* Client Logos Carousel */}
+          <div className="relative overflow-hidden py-12">
+            {/* Gradient overlays for fade effect */}
+            <div className="absolute left-0 top-0 w-32 h-full bg-gradient-to-r from-white to-transparent z-10"></div>
+            <div className="absolute right-0 top-0 w-32 h-full bg-gradient-to-l from-white to-transparent z-10"></div>
+            
+            {/* Scrolling container */}
+            <div className="flex animate-scroll space-x-16">
+              {/* First set of logos */}
+              {clients.map((client, index) => (
+                <div key={index} className="flex-shrink-0 flex items-center justify-center min-w-[200px]">
+                  <div className={`${client.color} text-3xl font-bold flex items-center`}>
+                    {client.logo && <span className="mr-2">{client.logo}</span>}
+                    {client.name}
+                  </div>
+                </div>
+              ))}
+              {/* Duplicate set for seamless loop */}
+              {clients.map((client, index) => (
+                <div key={`duplicate-${index}`} className="flex-shrink-0 flex items-center justify-center min-w-[200px]">
+                  <div className={`${client.color} text-3xl font-bold flex items-center`}>
+                    {client.logo && <span className="mr-2">{client.logo}</span>}
+                    {client.name}
+                  </div>
+                </div>
+              ))}
             </div>
-            <div className="text-black text-4xl font-bold">Uber</div>
-            <div className="text-blue-600 text-3xl font-bold">stripe</div>
-            <div className="text-black text-3xl font-bold">OpenAI</div>
           </div>
         </div>
 
