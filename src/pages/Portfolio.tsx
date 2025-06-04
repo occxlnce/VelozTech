@@ -17,7 +17,7 @@ const Portfolio = () => {
       id: "02", 
       title: "4us2csecurity Website",
       description: "A modern, responsive website for a security company featuring service showcases, client testimonials, and an integrated contact system. The site includes an admin panel for content management and SEO optimization for improved search visibility.",
-      image: "https://www.procompare.co.za/shared/za/2025/3/7ab53f0b0a0644e795e25866ad27d7f1/security-companies_thumbnail.webp?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      image: "https://images.pexels.com/photos/14709776/pexels-photo-14709776.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       technologies: ["React", "Tailwind CSS", "CMS Integration", "SEO Optimization"],
       link: "#"
     },
