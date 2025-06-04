@@ -26,9 +26,9 @@ const About = () => {
               </div>
               
               <h1 className="text-6xl md:text-8xl font-bold mb-8 leading-tight">
-                <span className="block">Crafting</span>
+                <span className="block">Driving</span>
                 <span className="block text-orange-400">Digital</span>
-                <span className="block">Excellence</span>
+                <span className="block">Transformation</span>
               </h1>
               
               <div className="max-w-3xl mx-auto">
@@ -40,11 +40,11 @@ const About = () => {
               {/* Floating Elements */}
               <div className="flex justify-center items-center space-x-8 md:space-x-16 mt-16">
                 <div className="text-center">
-                  <div className="text-4xl font-bold text-orange-400 mb-2">50+</div>
+                  <div className="text-4xl font-bold text-orange-400 mb-2">12+</div>
                   <div className="text-gray-400">Projects Delivered</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-4xl font-bold text-orange-400 mb-2">5+</div>
+                  <div className="text-4xl font-bold text-orange-400 mb-2">3+</div>
                   <div className="text-gray-400">Years Experience</div>
                 </div>
                 <div className="text-center">
@@ -69,9 +69,7 @@ const About = () => {
             <div className="text-center mb-16">
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">About VelozTech</h2>
               <p className="text-lg text-gray-600 max-w-4xl mx-auto leading-relaxed">
-                VelozTech is a cutting-edge technology company based in Pretoria, South Africa, specializing in intelligent solutions 
-                that transform businesses and enhance lives. With our team of expert developers, engineers, and innovators, we deliver 
-                superior products and services that exceed expectations and drive digital transformation across various industries.
+                Based in the heart of Pretoria, South Africa, VelozTech is a forward-thinking technology company that specializes in crafting intelligent solutions designed to transform businesses and enhance lives. Our dedicated team of expert developers, engineers, and innovators are committed to delivering superior products and services that exceed expectations and drive digital transformation across various industries, proving our capabilities with each successful project.
               </p>
             </div>
 
@@ -125,7 +123,7 @@ const About = () => {
           </div>
         </div>
 
-        {/* Our History Section */}
+        {/* Our History Section 
         <div className="py-20 bg-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
@@ -182,7 +180,9 @@ const About = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> 
+
+        */}
 
         {/* Team Section */}
         <TeamSection />
