@@ -9,7 +9,7 @@ const Portfolio = () => {
       id: "01",
       title: "Fleet Management System (Veloz Track-Us)",
       description: "A comprehensive fleet management solution that provides real-time tracking, route optimization, driver behavior monitoring, and maintenance scheduling. The system helps businesses reduce operational costs and improve efficiency through intelligent analytics and automated reporting.",
-      image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=600&h=400&fit=crop",
+      image: "https://images.pexels.com/photos/29566897/pexels-photo-29566897/free-photo-of-aerial-view-of-vehicle-storage-lot-with-cars.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       technologies: ["React", "Node.js", "MongoDB", "GPS API", "Real-time Analytics"],
       link: "#"
     },
@@ -17,7 +17,7 @@ const Portfolio = () => {
       id: "02", 
       title: "4us2csecurity Website",
       description: "A modern, responsive website for a security company featuring service showcases, client testimonials, and an integrated contact system. The site includes an admin panel for content management and SEO optimization for improved search visibility.",
-      image: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&h=400&fit=crop",
+      image: "https://www.procompare.co.za/shared/za/2025/3/7ab53f0b0a0644e795e25866ad27d7f1/security-companies_thumbnail.webp?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       technologies: ["React", "Tailwind CSS", "CMS Integration", "SEO Optimization"],
       link: "#"
     },
