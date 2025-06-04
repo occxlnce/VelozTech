@@ -25,7 +25,7 @@ const Portfolio = () => {
       id: "03",
       title: "Walkie Talkie Mobile App", 
       description: "A cross-platform mobile application that provides instant communication capabilities with features like group channels, location sharing, voice messages, and offline messaging. Built for both iOS and Android with a focus on reliability and ease of use.",
-      image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop",
+      image: "https://images.pexels.com/photos/8961009/pexels-photo-8961009.jpeg?auto=compress&cs=tinysrgb&w=1260&h=700&dpr=2",
       technologies: ["React Native", "WebRTC", "Firebase", "Push Notifications"],
       link: "#"
     },
@@ -33,7 +33,7 @@ const Portfolio = () => {
       id: "04",
       title: "Smart Home Automation System",
       description: "An intelligent home automation platform that integrates IoT devices, AI-powered energy management, and voice control capabilities. The system learns user patterns to optimize energy consumption while providing enhanced security and convenience features.",
-      image: "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=600&h=400&fit=crop",
+      image: "https://images.pexels.com/photos/16423103/pexels-photo-16423103/free-photo-of-smart-home-control.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       technologies: ["IoT Integration", "Machine Learning", "Voice Recognition", "Mobile App"],
       link: "#"
     }
