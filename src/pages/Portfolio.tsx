@@ -86,7 +86,7 @@ const Portfolio = () => {
                   </div>
                   <div className="w-px h-12 bg-gray-300"></div>
                   <div className="text-center">
-                    <div className="text-4xl font-bold text-orange-500 mb-2">50+</div>
+                    <div className="text-4xl font-bold text-orange-500 mb-2">12+</div>
                     <div className="text-gray-500 uppercase tracking-wider">Total Projects</div>
                   </div>
                 </div>
@@ -111,9 +111,8 @@ const Portfolio = () => {
             <div className="text-center mb-16">
               <h2 className="text-orange-500 text-lg font-semibold mb-4">Portfolio</h2>
               <h3 className="text-3xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight">
-                We knew to be done is good, but<br />
-                sharing our experiences and it<br />
-                "works" is way better.
+                Illustrating Our Capabilities:<br />
+                 A Portfolio of Successfully Executed Projects.
               </h3>
             </div>
 
