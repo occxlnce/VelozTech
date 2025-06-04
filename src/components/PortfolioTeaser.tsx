@@ -12,18 +12,18 @@ const PortfolioTeaser = () => {
       technologies: ["React", "Node.js", "GPS API"]
     },
     {
-      id: "02",
+      id: "02", 
       title: "4us2csecurity Website",
-      description: "Modern, responsive website for a security company featuring service showcases and integrated contact systems.",
-      image: "https://www.procompare.co.za/shared/za/2025/3/7ab53f0b0a0644e795e25866ad27d7f1/security-companies_thumbnail.webp",
-      technologies: ["React", "Tailwind CSS", "CMS"]
+      description: "A modern, responsive website for a security company featuring service showcases, client testimonials, and an integrated contact system. The site includes an admin panel for content management and SEO optimization for improved search visibility.",
+      image: "https://images.pexels.com/photos/14709776/pexels-photo-14709776.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      technologies: ["React", "Tailwind CSS", "CMS Integration", "SEO Optimization"],
     },
     {
       id: "03",
-      title: "Walkie Talkie Mobile App",
-      description: "Cross-platform mobile application providing instant communication with group channels and location sharing.",
-      image: "https://images.pexels.com/photos/8961010/pexels-photo-8961010.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-      technologies: ["React Native", "WebRTC", "Firebase"]
+      title: "Walkie Talkie Mobile App", 
+      description: "A cross-platform mobile application that provides instant communication capabilities with features like group channels, location sharing, voice messages, and offline messaging. Built for both iOS and Android with a focus on reliability and ease of use.",
+      image: "https://images.pexels.com/photos/8961009/pexels-photo-8961009.jpeg?auto=compress&cs=tinysrgb&w=1260&h=700&dpr=2",
+      technologies: ["React Native", "WebRTC", "Firebase", "Push Notifications"]
     }
   ];
 
